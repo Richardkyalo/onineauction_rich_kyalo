@@ -1,0 +1,65 @@
+body {
+    background-color: #f0e6e7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+      width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    label, input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      font-size: 14px;
+      text-align: left;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+  
+    input[type="text"], input[type="password"] {
+      border: 1px solid rgb(226, 23, 23);
+      border-radius: 5px;
+    }
+  
+    .submit {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    .submit:hover {
+      background-color: rgb(63, 26, 226);
+      transform: scale(1.1);
+    }
+  
+    #error-message {
+      color: red;
+    }
+    

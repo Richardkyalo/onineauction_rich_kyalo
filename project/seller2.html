@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Details</title>
+	<style>
+		body {
+			background-color: #0074D9;
+			color: #FFF;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		label {
+			margin-top: 10px;
+		}
+
+		input {
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+<!--	<img src="C:/Users/HP/Pictures/wallpapers/wallpaper (2).jpg" alt="Product Image" style="width: 100%; height: auto;">
+-->
+	<form action="submit.php" method="POST">
+		<label for="imageInput">insert product image</label>
+
+		 <input class="input" type="file" name="file" required autofocus>
+		<label for="product-name">Product Name:</label>
+		<input type="text" id="product-name" name="product-name">
+		<label for="product-details">Product Details:</label>
+		<input type="text" id="product-details" name="product-details">
+		<label for="user-id">User ID:</label>
+		<input type="text" id="user-id" name="user-id">
+		<label for="min-bid-amount">Minimum Bid Amount:</label>
+		<input type="text" id="min-bid-amount" name="min-bid-amount">
+		<label for="min-increase-value">Minimum Increase Value:</label>
+		<input type="text" id="min-increase-value" name="min-increase-value">
+		<label for="closing-date">Closing Date:</label>
+		<input type="text" id="closing-date" name="closing-date">
+		<label for="last-bid-value">Last Bid Value:</label>
+		<input type="text" id="last-bid-value" name="last-bid-value">
+		<label for="cat-id">Category ID:</label>
+		<input type="text" id="cat-id" name="cat-id">
+		<label for="date-created">Date Created:</label>
+		<input type="text" id="date-created" name="date-created">
+		<label for="status">Status:</label>
+		<input type="text" id="status" name="status">
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
